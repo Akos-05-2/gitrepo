@@ -10,6 +10,13 @@ namespace gitrepo
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
+            List<int> numbers = new List<int>();
+            for (int i = 0; i < 100; i++)
+            {
+                numbers.Add(random.Next(0, 1001));
+            }
+
         }
     }
 }
