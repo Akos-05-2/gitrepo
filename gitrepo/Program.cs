@@ -16,6 +16,13 @@ namespace gitrepo
             {
                 numbers.Add(random.Next(0, 1001));
             }
+            foreach (var number in numbers)
+            {
+                if (number % 2 == 0)
+                {
+                    Console.WriteLine(number + ", ");
+                }
+            }
 
         }
     }
